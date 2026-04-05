@@ -1,10 +1,6 @@
 ---
 name: thinking-in-systems
 description: Use this skill when a user describes observations about how something behaves, asks why something keeps happening, wants to understand the structure behind patterns, wants to model a system, or wants to understand why a system works well or surprises them. Also trigger when users describe recurring patterns, unintended consequences, situations where fixes don't seem to work, or when they focus too much on events and need help seeing deeper structure.
-license: MIT
-metadata:
-  author: chenhunghan
-  version: "1.0"
 ---
 
 # Thinking in Systems
