@@ -2,6 +2,10 @@
 
 An agent skill that guides users through systems thinking using the framework from Donella Meadows' *Thinking in Systems: A Primer*.
 
+<p align="center">
+  <img width="400" height="600" src="https://github.com/user-attachments/assets/554f71f7-7fcf-4b8a-9e26-da6dbd863d92" />
+</p>
+
 The skill helps users move beyond surface-level events to see the feedback loops, stocks, flows, and mental models that produce the patterns they observe. It follows a Socratic approach — asking questions before asserting, letting the user build understanding rather than being told.
 
 ## What it does
@@ -23,8 +27,6 @@ The skill produces structural diagrams (stocks, flows, feedback loops) and behav
 ```bash
 npx skills add chenhunghan/thinking-in-systems-skill
 ```
-
-Or manually copy the `thinking-in-systems/` directory to your agent's skills location (e.g., `.claude/skills/thinking-in-systems/`).
 
 ## Triggers
 
