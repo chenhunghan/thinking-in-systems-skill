@@ -1,0 +1,16 @@
+# Eval workspace — generated outputs, not source
+*-workspace/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Node (if eval tooling pulls deps)
+node_modules/

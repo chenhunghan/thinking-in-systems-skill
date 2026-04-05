@@ -1,0 +1,114 @@
+[
+  {
+    "query": "Every quarter our company sets ambitious targets, the team sprints hard, we hit the numbers, and then next quarter the targets go up again. People are burning out.",
+    "should_trigger": true
+  },
+  {
+    "query": "Why does this keep happening in our organization?",
+    "should_trigger": true
+  },
+  {
+    "query": "I want to understand the structure behind our recurring delivery failures.",
+    "should_trigger": true
+  },
+  {
+    "query": "Can you help me model our hiring pipeline as a system?",
+    "should_trigger": true
+  },
+  {
+    "query": "Our fixes never seem to work — every time we solve one problem, two more pop up. What am I missing?",
+    "should_trigger": true
+  },
+  {
+    "query": "Why does our team perform well despite losing key members?",
+    "should_trigger": true
+  },
+  {
+    "query": "I notice a pattern where every time we fix one thing, something else breaks.",
+    "should_trigger": true
+  },
+  {
+    "query": "What's causing this vicious cycle in our product development?",
+    "should_trigger": true
+  },
+  {
+    "query": "Help me map the feedback loops in our customer acquisition funnel.",
+    "should_trigger": true
+  },
+  {
+    "query": "We added more support agents but customer satisfaction didn't improve. Why?",
+    "should_trigger": true
+  },
+  {
+    "query": "Our city built a new highway but traffic got worse. Help me understand why.",
+    "should_trigger": true
+  },
+  {
+    "query": "I want to understand the unintended consequences of our new policy.",
+    "should_trigger": true
+  },
+  {
+    "query": "How do I fix this Python syntax error on line 42?",
+    "should_trigger": false
+  },
+  {
+    "query": "Write me a function that calculates the Fibonacci sequence.",
+    "should_trigger": false
+  },
+  {
+    "query": "Review this pull request for code quality issues.",
+    "should_trigger": false
+  },
+  {
+    "query": "Help me set up a CI/CD pipeline with GitHub Actions.",
+    "should_trigger": false
+  },
+  {
+    "query": "What's the best React state management library?",
+    "should_trigger": false
+  },
+  {
+    "query": "Debug this memory leak in my Node.js application.",
+    "should_trigger": false
+  },
+  {
+    "query": "Convert this CSV file to JSON format.",
+    "should_trigger": false
+  },
+  {
+    "query": "Create a Jira ticket for this bug.",
+    "should_trigger": false
+  },
+  {
+    "query": "Explain how REST APIs work.",
+    "should_trigger": false
+  },
+  {
+    "query": "Write unit tests for this authentication module.",
+    "should_trigger": false
+  },
+  {
+    "query": "Help me resolve this git merge conflict.",
+    "should_trigger": false
+  },
+  {
+    "query": "Can you think about what's the best database for my app?",
+    "should_trigger": false
+  },
+  {
+    "query": "Why is my Docker build failing with this error?",
+    "should_trigger": false
+  },
+  {
+    "query": "How does the quicksort algorithm work step by step?",
+    "should_trigger": false
+  },
+  {
+    "query": "Refactor this class to use the strategy pattern.",
+    "should_trigger": false
+  },
+  {
+    "query": "What's the difference between TCP and UDP?",
+    "should_trigger": false
+  }
+]

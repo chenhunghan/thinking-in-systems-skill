@@ -1,0 +1,160 @@
+{
+  "skill_name": "thinking-in-systems",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Every quarter our company sets ambitious targets, the team sprints hard, we hit the numbers, and then next quarter the targets go up again. People are burning out. Why can't leadership see this isn't sustainable?",
+      "expected_output": "Guides user from event-level thinking (blaming leadership) toward system structure. Should identify stocks (team energy/capacity, target level), flows (work drains energy, rest restores it), and the reinforcing loop (hitting targets raises targets raises effort). Should produce both a structural diagram and behavior-over-time graph. Should test the model. Should explore resilience before jumping to problems. Should not validate the blame frame — should reframe through structure.",
+      "files": [],
+      "expectations": [
+        "Identifies or asks about elements, interconnections, and the actual purpose of the system (not just stated purpose).",
+        "Identifies at least one meaningful stock (e.g., team energy/capacity, morale, target level, trust).",
+        "Identifies inflows and outflows for at least one stock.",
+        "Produces a structural diagram showing stocks, flows, and feedback loops with a clearly marked system boundary.",
+        "The structural diagram labels feedback loops as reinforcing (R) or balancing (B).",
+        "Produces a behavior-over-time graph or description showing how key stocks trend over time — with time on the x-axis and showing a trend or pattern, not just a snapshot.",
+        "Questions the model's validity — asks whether driving factors are realistic, what drives the driving factors, or whether the system would react as modeled.",
+        "Explores why the system works well (resilience, self-organization, or hierarchy) BEFORE focusing on problems or traps.",
+        "Explores at least one of: boundary limitations, delays, or bounded rationality as sources of surprise.",
+        "Identifies relevant system trap(s) grounded in the mapped structure, not just keyword-matched from the scenario description.",
+        "Identifies leverage points at multiple levels of Meadows' hierarchy, distinguishing low-leverage from high-leverage interventions.",
+        "Phases occur in roughly the right progression — does not jump to leverage points or traps before mapping structure.",
+        "Asks questions before making assertions, especially in early phases. Uses exploratory language like 'this looks like...' or 'I notice...'.",
+        "Does not blame individuals (leadership) for system behavior — explains through structure, not character."
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Our city built a new highway to reduce congestion, but traffic is worse than before. They're now talking about adding more lanes.",
+      "expected_output": "Guides user to model the transportation system structure before evaluating the proposed fix. Should identify stocks (road capacity, number of trips/drivers, development patterns), the reinforcing loop of induced demand. Should produce diagrams. Should test whether the model captures reality. Should explore what makes the transportation system resilient before focusing on the trap. Should question the boundary — is this just about the highway or about land use, housing, transit?",
+      "files": [],
+      "expectations": [
+        "Identifies or asks about elements, interconnections, and actual purpose of the transportation system (not just 'move cars').",
+        "Identifies relevant stocks (e.g., road capacity, number of drivers/trips, development density, commute time).",
+        "Produces a structural diagram showing stocks, flows, and feedback loops with a clearly marked system boundary.",
+        "The structural diagram labels feedback loops as reinforcing (R) or balancing (B).",
+        "Produces or describes behavior-over-time patterns (congestion trend, not just 'traffic is bad').",
+        "Identifies the reinforcing loop of induced demand and labels it.",
+        "Questions whether induced demand fully explains the situation or if other factors are at play.",
+        "Explores system strengths or resilience before jumping to fixes.",
+        "Acknowledges that the system boundary (just the highway) may be too narrow — land use, housing, public transit, remote work are connected.",
+        "Identifies relevant trap(s) — likely 'fixes that fail' pattern or policy resistance.",
+        "Identifies leverage points beyond parameter-level — not just 'add lanes' or 'add tolls' but considers information flows, rules, goals.",
+        "Phases occur in roughly the right progression.",
+        "Does not blame city planners or politicians — explains through structure."
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "My team recently adopted a new project management tool and things felt more organized at first, but now we're spending more time updating the tool than doing actual work. Some people started keeping their own side spreadsheets.",
+      "expected_output": "Guides user to see the system structure rather than concluding 'the tool is bad.' Should identify stocks (productivity, overhead, trust in tool, number of parallel systems), flows, and the balancing loop fighting back. Should explore actual vs stated purpose. Should recognize that side spreadsheets are a sign of self-organization (a strength!). Should identify the trap and leverage points.",
+      "files": [],
+      "expectations": [
+        "Helps identify the system's actual function/purpose vs its stated purpose.",
+        "Identifies relevant stocks (e.g., productivity, overhead, trust in tool, number of parallel tracking systems).",
+        "Produces a structural diagram showing stocks, flows, and feedback loops.",
+        "The structural diagram includes a clearly marked system boundary.",
+        "Produces or describes behavior-over-time patterns — the initial improvement followed by degradation.",
+        "Identifies the balancing loop where the system resists the imposed tool adoption.",
+        "Tests the model against reality — asks validating questions.",
+        "Recognizes that side spreadsheets are a sign of the team's self-organization and resilience — not just 'resistance to change'.",
+        "Explores bounded rationality — each person's workaround is locally rational given what they see.",
+        "Identifies relevant trap (shifting the burden, seeking the wrong goal, or rule beating).",
+        "Identifies leverage points — likely goals (#3), information flows (#6), or rules (#5).",
+        "Phases occur in roughly the right progression.",
+        "Asks questions before asserting — helps user discover structure."
+      ]
+    },
+    {
+      "id": 4,
+      "prompt": "I think our customer support operation is a system but I'm not sure. We have agents, tickets, a knowledge base, customers, and managers who review metrics weekly. Can you help me figure out if I should think about this as a system?",
+      "expected_output": "Walks through the four system tests methodically. Should ask about interconnections between elements, whether parts produce emergent behavior (e.g., customer satisfaction that no single agent creates alone), and whether behavior persists when agents are replaced. Should spend time on actual purpose vs stated purpose.",
+      "files": [],
+      "expectations": [
+        "Identifies or confirms the elements the user listed and asks if any are missing.",
+        "Asks about or identifies how parts affect each other — not just listing them but tracing connections.",
+        "Explores whether parts together produce an effect different from each part on its own (emergence).",
+        "Considers whether behavior persists across circumstances (e.g., if agents are replaced).",
+        "Asks about or explores the system's actual function/purpose, especially actual vs stated purpose.",
+        "Asks questions rather than asserting — helps the user discover whether it's a system."
+      ]
+    },
+    {
+      "id": 5,
+      "prompt": "I've sketched out that our inventory system has a stock of warehouse goods, inflows from manufacturing, outflows from sales. There's a balancing loop where low inventory triggers more manufacturing orders. But I'm not confident this model captures what's really happening — we keep having unexpected shortages despite the reorder loop.",
+      "expected_output": "Focuses on testing the model using the three validation questions. Should help identify what's missing — likely delays (between ordering and receiving), or flows not accounted for (seasonal demand spikes, supplier variability). Should build on the user's existing model, not start from scratch.",
+      "files": [],
+      "expectations": [
+        "Asks whether the driving factors (manufacturing rate, sales rate) are likely to unfold as the model assumes.",
+        "Compares what the model predicts (stable inventory) to what actually happens (unexpected shortages) and explores the gap.",
+        "Asks what drives the driving factors — what causes sales spikes, what affects manufacturing lead times.",
+        "Helps identify what's missing from the model — likely delays, demand variability, supplier constraints, or information gaps.",
+        "Builds on the user's existing model rather than discarding it and starting from scratch."
+      ]
+    },
+    {
+      "id": 6,
+      "prompt": "Our open source community has been thriving for 5 years despite losing two key maintainers and surviving a major funding cut last year. New contributors keep appearing and the project keeps shipping. I want to understand what makes it so resilient rather than just hoping it continues.",
+      "expected_output": "Focuses on Phase 4 — explores resilience (buffers like diverse contributor base, reputation stock), self-organization (community creates governance, mentorship emerges), and hierarchy (sub-projects serving the whole). Should stay focused on understanding strengths rather than pivoting to 'but here's what could go wrong.'",
+      "files": [],
+      "expectations": [
+        "Explores specific sources of resilience — identifies buffers (contributor diversity, reputation), redundancy, feedback loops that maintain the community.",
+        "Explores self-organization — how the community structures itself, learns, creates new roles or governance without top-down control.",
+        "Explores hierarchy — subsystems (sub-projects, governance bodies, mentorship structures) and how they serve the whole.",
+        "Stays focused on understanding strengths rather than unprompted pivoting to potential risks or problems.",
+        "Asks questions to help user discover the sources of resilience rather than just listing possible reasons."
+      ]
+    },
+    {
+      "id": 7,
+      "prompt": "I have a random collection of books on my desk, a coffee mug, and some pens. Is this a system?",
+      "expected_output": "Should walk through the system tests and conclude this is NOT a system — the items don't have meaningful interconnections or a shared function/purpose. Should not force a systems frame where it doesn't fit.",
+      "files": [],
+      "expectations": [
+        "Walks through at least two of the four system tests (elements, interconnections, emergence, persistence).",
+        "Concludes that this collection likely does NOT constitute a system, or asks probing questions that lead toward that conclusion.",
+        "Does not force a systems frame onto what is essentially a random collection of objects.",
+        "Acknowledges that not everything is a system — a pile of parts without interconnections or shared purpose is just a collection."
+      ]
+    },
+    {
+      "id": 8,
+      "prompt": "our deploys keep breaking prod, idk why",
+      "expected_output": "Should recognize this as a potential systems pattern (recurring failures) and draw out information via questions rather than immediately diagnosing. Should ask about elements, interconnections, what happens before/during/after a deploy.",
+      "files": [],
+      "expectations": [
+        "Asks clarifying questions to understand the situation before diagnosing — does not immediately prescribe solutions.",
+        "Recognizes the recurring pattern ('keep breaking') as a signal of system structure worth exploring.",
+        "Asks about elements of the deployment system (people, processes, tools, environments, tests, feedback mechanisms).",
+        "Does not immediately blame people or tools for the failures.",
+        "Frames the situation as a pattern worth understanding structurally, not just an event to fix."
+      ]
+    },
+    {
+      "id": 9,
+      "prompt": "I know about systems thinking already. Just tell me directly: our sales team has a high turnover rate and we keep hiring but people leave within 6 months. What's the system trap and where are the leverage points? Skip the questions.",
+      "expected_output": "Should be flexible per SKILL.md's 'Be flexible' instruction — provide direct analysis rather than Socratic dialogue, but still frame observations as hypotheses. Should identify relevant traps and leverage points connected to implied structure.",
+      "files": [],
+      "expectations": [
+        "Provides direct analysis rather than forcing Socratic questioning — respects the user's request for directness.",
+        "Still frames observations as hypotheses or possibilities rather than absolute truths.",
+        "Identifies at least one relevant system trap grounded in the described situation (e.g., shifting the burden, drift to low performance, fixes that fail).",
+        "Identifies leverage points connected to the structure, not just generic advice.",
+        "Briefly maps or describes the implied system structure (stocks, flows, loops) even when being direct."
+      ]
+    },
+    {
+      "id": 10,
+      "prompt": "I've already mapped my startup's growth system. The key stocks are cash reserves, customer base, and team size. There's a reinforcing loop where more customers → more revenue → we hire more → we can serve more customers. But I think our leverage point is just hiring faster. Am I thinking about this right?",
+      "expected_output": "Should pick up where the user is rather than restarting from Phase 1. Should acknowledge the user's model, test it (Phase 3), and then help them see that 'hiring faster' is a low-leverage parameter change (#12 on Meadows' hierarchy). Should guide toward higher-leverage interventions.",
+      "files": [],
+      "expectations": [
+        "Builds on the user's existing model rather than restarting from Phase 1.",
+        "Tests or questions the user's model — asks what's missing, whether it matches reality, or what drives the driving factors.",
+        "Identifies that 'hiring faster' is a low-leverage intervention (parameter/number change at level 12 on Meadows' hierarchy).",
+        "Guides toward higher-leverage alternatives — e.g., information flows, rules, goals, or feedback loop structure.",
+        "Acknowledges what the user got right before pointing out limitations."
+      ]
+    }
+  ]
+}
